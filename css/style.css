@@ -1,0 +1,714 @@
+*
+{
+  box-sizing:border-box;
+}
+html
+{
+  overflow-x:hidden;
+}
+body
+{
+  width:100%;
+  height:100%;
+  margin:0;
+}
+.pic,#service,#today,.container,#dessert
+{
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position:center center;
+}
+
+#menu li a,#see,#read-more,.hori-menu li a,.find,#order,#menu-btn,b,.category
+{
+   font-family:'Montserrat',sans-serif; 
+}
+
+.title,.dis-title,.about,.heading ,.today-title,.service-title,.tasty-title,#delivery-title,#menu-title ,.font-setting
+{
+  font-family: 'Amatic SC',cursive;
+}
+
+.brief ,.desc,.lists .list,.sub-detail,.description,.tasty-desc,.mail,.mail-address,.delivery-desc,.today-brief,.service-brief
+{
+  font-family:'Open Sans',sans-serif;
+}
+
+#menu li a,.col-md-12, .title, #see, .dis-title,.event-mgmt
+{
+ text-align:center; 
+}
+
+#menu li a,.col-md-12, .title, #see, .dis-title ,.today-title,.service-title,.tasty-title
+{
+  color:white;
+  text-transform:uppercase;
+}
+
+.font-bold,li span
+{
+  font-weight:bold;
+}
+
+#img-logo
+{
+  margin-top:-27px;
+  width:70%;
+  overflow:hidden;
+  transition: all 0.3s ease-in-out;
+}
+.container
+{
+  width:100%;
+  height:660px;
+  position:relative;
+  top:0;
+  left:0;
+  background-position:left top;
+  background-repeat:no-repeat;
+  background-attachment:scroll;
+  background-image:url('https://s2.postimg.org/nwsl0o20p/slide1.jpg');
+}
+
+#menu li a#about
+{
+  margin-left:80px;
+}
+
+#navbar
+{
+  margin:0;
+  background-color:rgba(0,0,0,0.2);
+  border:none;
+  height:40px;
+}
+
+.navbar-header
+{
+   transition: height 0.3s ease-in-out;
+}
+
+#menu li a
+{
+  width:100%;
+  margin-top:15px;
+  margin-left:40px;
+  font-weight:900;
+  font-size:0.90em;
+  letter-spacing:2px;
+  transition: all 0.3s ease-in-out;
+}
+
+nav.navbar.shrink {
+  height:50px;
+}
+
+nav.shrink a {
+  padding-top: 10px !important;
+}
+
+nav.shrink #img-logo
+{
+  position:relative;
+  top:5px;
+  max-height:50px;
+  overflow:hidden;
+}
+
+#menu li a:hover
+{
+  text-decoration:underline;
+}
+
+ .col-md-12
+{
+  position:absolute;
+  top:220px;
+  width:100%;
+ 
+}
+.title
+{
+  font-size:4em;
+  letter-spacing:20px;
+  word-spacing:10px;
+  font-weight:700;
+}
+.brief
+{
+  font-size:1.20em; 
+  font-weight:300;
+  background-color:rgba(0,0,0,0);
+}
+.col-md-12 #see
+{
+  background-color:black;
+}
+.col-md-12 #see
+{
+  border:none;
+  padding:20px;
+  margin:20px;
+  width:250px;
+  font-size:1em;
+}
+
+#about-us
+{
+  width:100%;
+  height:560px;
+}
+
+#about-us .intro-about
+{
+  background-color:white;
+  position:relative;
+  top:150px;  
+  left:90px;
+}
+#img-contain
+{
+  height:560px;
+  background-image:url('https://demo.kallyas.net/phaeton-restaurant-bar-pub/wp-content/uploads/sites/7/2016/07/about-chefs.jpg'); 
+  background-position:center;
+  position:relative;
+  left:80px;
+  width:670px;
+}
+  
+
+.about
+{
+  width:100%;
+  font-size:2.50em;
+  letter-spacing:5px;
+}
+.desc
+{
+  margin-top:20px;
+  max-width:500px;
+  font-size:1.20em;
+  font-weight:500;
+  color:#333333;
+}
+#read-more
+{
+  background-color:transparent;
+  border:2px solid black;
+  height:60px;
+  padding:20px;
+  width:180px;
+  margin-top:25px;
+  color:black;
+  font-size:0.85em;
+}
+
+
+.todays-speciality
+{
+  width:100%;
+  height:600px;
+  position:relative;
+}
+#today
+{
+  position:absolute;
+  background-image:url('https://demo.kallyas.net/phaeton-restaurant-bar-pub/wp-content/uploads/sites/7/2016/06/section2.jpg');
+  width:100%;
+  height:100%; 
+}
+.today-title,.service-title,.tasty-title
+{
+  
+  font-size:4em;
+  letter-spacing:20px;
+  word-spacing:10px;
+  font-weight:500;
+  text-transform:uppercase;
+  background-color:rgba(0,0,0,0);
+}
+.service-title,.tasty-title
+{
+  font-weight:600;
+}
+.today-brief,.service-brief
+{
+  font-size:1.30em; 
+  font-weight:300;
+  background-color:rgba(0,0,0,0);
+}
+
+.img-service
+{
+  margin-top:25px;
+}
+#menu-btn
+{
+  background-color:black;
+  color:white;
+  border:none;
+  padding:20px;
+  margin:20px;
+  width:250px;
+  font-size:1.30em;
+  text-transform:capitalize;
+}
+#menu-btn:focus,#read-more:focus,#see:focus
+{
+ outline:none; 
+}
+
+.food-items
+{
+  background-color:#efefef;
+  width:100%;
+  height:620px;
+}
+#menu-title
+{
+  margin-top:100px;
+  width:100%;
+  font-size:3em;
+  text-align:center;
+}
+.category
+{
+  float:right;
+  text-transform:uppercase;
+  color:#cccccc;
+  font-size:0.95em;
+  margin-top:40px;
+}
+
+.lists .list
+{
+  position:relative;
+  list-style:none;
+  color:#535353;
+  width:430px;
+  margin-top:100px;
+  margin-left:200px;
+  font-size:1.10em;
+}
+li span
+{
+  color:#cccccc;
+  letter-spacing:1.5px;
+}
+
+b
+{
+ color:#cc9900; 
+}
+.list li
+{
+  margin-bottom:15px;
+}
+
+#delivery
+{
+ width:100%;
+ height:520px;
+ position:relative;
+}
+.pic
+{ 
+  position:relative;
+  top:150px;
+  width:650px;
+  margin-left:17px;
+  background-image:url('https://demo.kallyas.net/phaeton-restaurant-bar-pub/wp-content/uploads/sites/7/2016/06/delivery.jpg');
+  height:500px;
+}
+
+#service
+{
+  width:100%;
+  height:650px;
+  background-image: url('https://s23.postimg.org/ougvldo0b/bestservice.jpg');
+  position:relative;
+  transform: translate3d(0px, 120px, 0px);
+  z-index:-1;
+}
+#arrangments
+{
+  width:100%;
+  position:relative;
+  
+}
+
+.event-mgmt
+{
+  position:relative;
+  width:430px;
+  height:500px;
+  top:180px;
+  left:150px;
+}
+.img-bg > img
+{
+  top:50px;
+  left:60px;
+  width:90px;
+  height:90px;
+  z-index:1;
+  display:inline-block;
+  position:absolute; 
+}
+
+.img-bg
+{
+  position:relative;
+  width:200px;
+  height:190px;
+  background-color:black;
+  transition:background-color .2s ease-out;
+  overflow:hidden;
+}
+.img-circle:hover
+{
+  width:215px;
+  height:210px;
+}
+.birthday,.meeting,.wedding
+{
+  position:absolute;
+  top:230px;
+  left:-50px;
+  max-width:350px;
+}
+
+.font-setting
+{
+  font-size:3em;
+  letter-spacing:3px;
+  font-weight:600;
+}
+.tasty-desc
+{
+  color:white;
+  font-size:1.30em;
+  margin:auto;
+  font-weight:300;
+  background-color:rgba(0,0,0,0.2.5);
+  
+}
+.description
+{
+  font-size:1em;
+  margin-top:20px;
+}
+
+#dessert
+{
+  position:relative;
+  top:180px;
+  background-image:url('https://demo.kallyas.net/phaeton-restaurant-bar-pub/wp-content/uploads/sites/7/2016/06/tasty-deserts.jpg');
+  width:1500px;
+  height:800px;
+}
+.description-delivery
+{
+  position:relative;
+  top:135px;
+  left:150px;
+}
+#delivery-title
+{
+  font-size:3em;
+  font-weight:600;
+}
+.delivery-desc
+{
+  font-size:1.20em;
+  max-width:450px;
+  margin-top:20px;
+}
+#order
+{
+  margin-top:30px;
+  padding:20px 30px 20px 30px;
+  background-color:white;
+  border:2px solid black;
+  font-size:0.85em;
+  width:120px;
+  text-transform:uppercase;
+}
+
+#order-now
+{
+  width:100%;
+  height:520px;
+  position:relative;
+  background-color:white;
+}
+.details
+{
+  width:430px;
+  margin-top:80px;
+  left:100px;
+}
+.heading
+{
+  font-size:2.70em;
+  position:relative;
+}
+.sub-detail
+{
+  position:absolute;
+  top:80px;
+  max-width:358px;
+  font-size:1.20em;
+}
+.find
+{
+  margin-top:130px;
+  border:2px solid black;
+  padding:20px 30px 20px 30px;
+  background-color:white;
+  text-transform:uppercase;
+  font-size:0.95em;
+}
+.call
+{
+  position:relative;
+  top:165px;
+  font-size:1.30em;
+}
+.discount
+{
+  background-color:black;
+  width:100%;
+  height:600px;
+  position:relative;
+}
+.dis-coupon
+{
+  position:absolute;
+}
+.dis-title
+{
+  width:100%;
+  font-size:3em;
+  font-weight:500;
+  letter-spacing:3px;
+}
+.mail
+{
+  position:relative;
+  text-align:center;
+  width:100%;
+  font-size:1.30em;
+  font-weight:300;
+}
+.mail-address
+{
+  margin-top:30px;
+  width:300px;
+  color:white;
+  font-size:1em;
+  background-color:transparent;
+  border:2px solid white;
+  padding:20px;
+}
+#subscribe
+{
+  font-family:sans-serif;
+  background-color:#ffcc00;
+  color:white;
+  padding:23px;
+  width:150px;
+  border-radius:5px;
+  border:transparent;
+  margin-left:10px;
+}
+#subscribe:focus
+{
+  outline:none;
+}
+.social-media
+{
+  margin-top:50px;
+}
+.social-media,.hori-menu 
+{
+ list-style:none;
+}
+.social-media li,.hori-menu li
+{
+    display:inline;
+}
+
+.social-media li 
+{
+  margin:10px;
+}
+.social-media li i
+{
+  color:gray;
+  font-size:1.50em;
+}
+.social-media li i a:focus
+{
+  outline: none;
+}
+.hori-menu
+{
+  margin-top:35px;
+}
+.hori-menu li
+{
+  margin:10px;
+}
+.hori-menu li a
+{
+  color:gray;
+  text-transform:uppercase;
+  font-size:0.75em;
+  text-decoration:none;
+}
+.hori-menu li a:hover
+{
+  color:lightgray;
+}
+
+@media (max-width:468px)
+{
+  html
+  {
+      width:360px;
+  }
+ body 
+  {
+    font-size:1.35em;
+  }
+  #about-us .intro-about 
+  {
+    position:relative;
+    left:10px;
+    top:10px;
+  }
+  #read-more
+  {
+    margin-bottom:50px;
+  }
+  #about-us #img-contain
+  {
+    width:100%;
+    height:300px;
+  }
+  .food-items
+  {
+    height:700px;
+    background-color:white;
+  }
+  .category
+  {
+    text-align:center;
+    width:100%;
+  }
+  .lists .list
+  {
+    position:relative;
+    margin-left:10px;
+  }
+  
+  .pic
+  {
+    width:360px;
+    position:relative;
+    left:-15px;
+    margin-top:200px;
+    height:350px;
+  }
+  .description-delivery
+  {
+    position:relative;
+    left:10px;
+    margin-top:40px;
+  }
+  .birthday,.meeting,.wedding
+  {
+    position:absolute;
+    left:-150px;
+  }
+  .img-bg
+  {
+    position:absolute;
+    left:-60px;
+  }
+  .service-bg
+  {
+    margin-top:460px;
+  }
+  #dessert
+  {
+    width:360px;
+    height:800px;
+  }
+  
+  
+  #order-now
+  {
+    height:1100px;
+  }
+  .details
+  {
+    position:relative;
+    left:10px;
+  }
+ 
+  #subscribe
+  {
+    margin-top:20px;
+  }
+  .todays-speciality
+  {
+    position:relative;
+    top:120px;
+  }
+  #menu-title
+  {
+    position:relative;
+    top:50px;
+  }
+  .category
+  {
+    margin-top:90px;
+  }
+  .social-media li a
+  {
+    margin-top:10px;
+  }
+  .hori-menu li a
+  {
+    display:block;
+    font-size:0.85em;
+  }
+  #discount
+  {
+    height:900px;
+  }
+ 
+  #menu
+  {
+    background-color:white;
+  }
+  #menu li a
+  {
+    color:black;
+    position:relative;
+   left:-40px;
+  }
+  #menu li a#about
+  {
+    position:relative;
+    left:-80px;
+    padding:5px;
+  }
+  
+  #menu li a #img-logo
+  {
+    display:none;
+  }
+}
